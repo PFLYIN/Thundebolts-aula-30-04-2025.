@@ -1,0 +1,40 @@
+:root {
+    --maincolor:#fa0000;
+    --secondarycolor: yellow;
+    --clearcolor: white;
+    --space: 15px;
+}
+
+.navbar {
+    background-color: var(--maincolor);
+    
+    .navbar-brand {
+        img {
+            height: 60px;
+        }
+    }
+
+    .nav-link {
+        color: var(--clearcolor) !important;
+    }
+
+    .active {
+        color: var(--secondarycolor) !important;
+    }
+}
+
+.card {
+    margin-bottom: var(--space);
+     img {
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+.footer {
+    background-color: var(--maincolor);
+    color: var(--clearcolor);
+    padding: var(--space) 0;
+      img {
+        width: 300px;
+      }
+}
